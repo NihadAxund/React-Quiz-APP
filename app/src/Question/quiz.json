@@ -1,0 +1,32 @@
+{
+    "questions": [
+      {
+        "question": "Question 1: Is the Earth a round planet?",
+        "correct_answer": "Yes",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "I don't know"
+        }
+      },
+      {
+        "question": "Question 2: Can water vapor directly turn into a solid from a liquid state?",
+        "correct_answer": "No",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "I don't know"
+        }
+      },
+      {
+        "question": "Question 3: Is Python a programming language?",
+        "correct_answer": "Yes",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "I don't know"
+        }
+      }
+    ]
+  }
+  

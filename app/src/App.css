@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.Sec-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:10px;
+
+}
+
+.Sec-2{
+  margin: 20px;
+  background-color:whitesmoke;
+  text-align: center;
+
+}
+
+.Sec-3{
+  margin: 10px;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Quiz_Text{
+  margin: auto;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  color: white;
+}
+
+/* Quiz.css */
+
+.btn-check{
+  background-color: aqua !important;
+}
+
+.ButtonGroup{
+  display: flex;
+  width: 100% !important;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ButtonGroup > .Item{
+  width: 90%;
+  height: auto;
+  min-height: 50px;
+  margin: 10px !important;
+  border-radius: 10px !important;
+  text-align: start !important;
+  border: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.ButtonGroup > .Item:hover{
+  background-color: rgb(0, 102, 255);
+  color: white;
+}
+
+.ButtonGroup > .Item:hover label{
+  background-color: rgb(48, 52, 52) !important;
+}
+ 
+label{
+  background-color: rgb(0, 102, 255) !important;
+  color: white;
+  border-radius: 100px;
+  padding: 10px ;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0 !important;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+}
+
+h4{
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+  margin-top: 5px !important;
+}
+
+.Finish_div{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Inside{
+  background-color: white;
+  width: 60%;
+  height: 70%;
+  border-radius: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
