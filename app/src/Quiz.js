@@ -32,8 +32,8 @@ class Quiz extends Component {
 
     handleRadioChange = (value,Answer) => {
         this.setState({ rSelected: value });
-        this.CountRef--;
         if(this.CountRef>0){
+            this.CountRef--;
             this.setState({QSelected:Massiv.questions[Massiv.questions.length-this.CountRef]})
             if(value==Answer){
                 this.CorrectRef+=1;

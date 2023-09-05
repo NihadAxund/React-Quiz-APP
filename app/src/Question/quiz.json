@@ -1,30 +1,30 @@
 {
     "questions": [
       {
-        "question": "Question 1: Is the Earth a round planet?",
-        "correct_answer": "Yes",
+        "question": "If you want to import just the Component from the React library, what syntax do you use?",
+        "correct_answer": "import { Component } from 'react'",
         "options": {
-          "A": "Yes",
-          "B": "No",
-          "C": "I don't know"
+          "A": "import React.Component from 'react'",
+          "B": "import [ Component ] from 'react'",
+          "C": "import { Component } from 'react'"
         }
       },
       {
-        "question": "Question 2: Can water vapor directly turn into a solid from a liquid state?",
-        "correct_answer": "No",
+        "question": "If a function component should always render the same way given the same props, what is a simple performance optimization available for it?",
+        "correct_answer": "Wrap it in the `React.memo` higher-order component.",
         "options": {
-          "A": "Yes",
-          "B": "No",
-          "C": "I don't know"
+          "A": "Implement the `useReducer` Hook.",
+          "B": "Wrap it in the `React.memo` higher-order component.",
+          "C": "Implement the `useMemo` Hook."
         }
       },
       {
-        "question": "Question 3: Is Python a programming language?",
-        "correct_answer": "Yes",
+        "question": " How do you handle passing through the component tree without having to pass props down manually",
+        "correct_answer": "React Context",
         "options": {
-          "A": "Yes",
-          "B": "No",
-          "C": "I don't know"
+          "A": "React Send",
+          "B": "React Pinpoint",
+          "C": "React Context"
         }
       }
     ]
